@@ -1,8 +1,7 @@
 
 ---
 
-# **StyleMate **
-where style matters
+# **StyleMate (where style matters) **
 A fashion-first matching app where users connect based on their sense of style rather than physical appearance. Whether you're into streetwear, casual, or high fashion, StyleMate is here to connect you with like-minded fashion enthusiasts. This app is built using React for the frontend and Node.js, Express, and SQL for the backend.
 
 ## **Table of Contents**
