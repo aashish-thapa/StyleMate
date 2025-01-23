@@ -52,10 +52,12 @@ const HeroText = styled.div`
 
 const FeaturesSection = styled.section`
   display: flex;
+  gap: 100px;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 50px 20px;
   background-color: #f9f9f9;
+  margin-bottom: 46px;
 
   h2 {
     text-align: center;
@@ -80,8 +82,8 @@ const FeatureCard = styled.div`
   }
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     margin-bottom: 20px;
   }
@@ -129,7 +131,7 @@ const Footer = styled.footer`
   color: white;
   text-align: center;
   padding: 20px 0;
-  
+  margin-top: 10px;
   p {
     font-size: 0.9rem;
   }
@@ -157,17 +159,17 @@ const Home = () => {
       <FeaturesSection>
         <h2>Features</h2>
         <FeatureCard>
-          <img src="https://via.placeholder.com/100" alt="Feature 1" />
+          <img src="https://img.freepik.com/premium-photo/chic-fashion-website-header-with-trendy-couple-grey-background_1252915-11745.jpg" alt="Feature 1" />
           <h3>Fashion Profiles</h3>
           <p>Create a unique fashion profile to showcase your style.</p>
         </FeatureCard>
         <FeatureCard>
-          <img src="https://via.placeholder.com/100" alt="Feature 2" />
+          <img src="https://media.istockphoto.com/id/685775838/photo/young-couple-enjoying-a-summer-day-on-seashore.jpg?s=612x612&w=0&k=20&c=jbMNfwHbYs8W7sOcIDE7zu9zblQwwqxY1oTkjECcbt4=" alt="Feature 2" />
           <h3>Style Matching</h3>
           <p>We match you based on your fashion preferences, not looks.</p>
         </FeatureCard>
         <FeatureCard>
-          <img src="https://via.placeholder.com/100" alt="Feature 3" />
+          <img src="https://media.istockphoto.com/id/1059156958/photo/pure-feelings.jpg?s=612x612&w=0&k=20&c=8ibLVgOxzUwY_ndxReY0BWY68iEzpyIoeU-TwzWyvTw=" alt="Feature 3" />
           <h3>Fashion Community</h3>
           <p>Join a community that values fashion and creativity.</p>
         </FeatureCard>
